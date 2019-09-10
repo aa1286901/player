@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" media="screen" href="css/reset.css"/>
+    <link rel="stylesheet" media="screen" href="css/mplayer.css"/>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/perfect-scrollbar.jquery.min.js"></script>
+    <script type="text/javascript" src="js/mplayer.js"></script>
+</head>
+<body>
+
+<div class="mplayer">
+    <div class="mplayer__front-header">
+        <div class="mplayer__front-header-next-bg"></div>
+        <div class="mplayer__front-header-current-bg"></div>
+        <div class="mplayer__front-btn-playlist"></div>
+        <div class="mplayer__cover-art">
+            <img class="mplayer__cover-art-next" src="#" alt="cover art">
+            <img class="mplayer__cover-art-current" src="#" alt="cover art">
+        </div>
+        <div class="mplayer__toolbar">
+            <div class="mplayer__prev"></div>
+            <div class="mplayer__pause"></div>
+            <div class="mplayer__next"></div>
+        </div>
+        <div class="mplayer__front-body">
+            <div class="mplayer__front-row">
+                <div class="mplayer__front-title-wrap">
+                    <div class="mplayer__front-title-track"></div>
+                    <div class="mplayer__front-title-author"></div>
+                </div>
+            </div>
+            <div class="mplayer__front-row">
+                <div class="mplayer__long">
+                    <div class="mplayer__current-time">0:00</div>
+                    <div class="mplayer__long-slider"></div>
+                    <div class="mplayer__all-time"></div>
+                </div>
+            </div>
+            <div class="mplayer__front-row">
+                <div class="mplayer__order-btn-wrap">
+                    <div class="mplayer__repeat"></div>
+                    <div class="mplayer__random"></div>
+                </div>
+                <div class="mplayer__volume">
+                    <div class="mplayer__volume-icon"></div>
+                    <div class="mplayer__volume-slider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mplayer__playlist ">
+        <div class="mplayer__playlist-header">
+            <div class="mplayer__playlist-btn-front"></div>
+            <div class="mplayer__playlist-header-title">
+                Плейлист
+            </div>
+        </div>
+        <div class="mplayer__playlist-body">
+            <div class="mplayer__playlist-body-next-bg"></div>
+            <div class="mplayer__playlist-body-current-bg"></div>
+            <div class="mplayer__playlist-body-inner js-perfect-scrollbar"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+"use strict";
+    $(function () {
+        $('.mplayer').mplayer({
+            'volume': 80,
+            'playlist': [
+
+                {
+                    "title": "Final Song",
+                    "author": "MØ",
+                    "cover": "files/covers/1.jpg",
+                    "background": "files/backgrounds/1.jpg",
+                    "pfile": "files/music/1.mp3",
+                    "duration": "232"
+                },
+                {
+                    "title": "This Is What You Came For",
+                    "author": "Calvin Harris",
+                    "cover": "files/covers/2.jpg",
+                    "background": "files/backgrounds/2.jpg",
+                    "pfile": "files/music/2.mp3",
+                    "duration": "221"
+                },
+                {
+                    "title": "Shape of You",
+                    "author": "Ed Sheeran",
+                    "cover": "files/covers/3.jpg",
+                    "background": "files/backgrounds/3.jpg",
+                    "pfile": "files/music/3.mp3",
+                    "duration": "233"
+                },
+                {
+                    "title": "can't stop the feeling",
+                    "author": "Justin Timberlake",
+                    "cover": "files/covers/4.jpg",
+                    "background": "files/backgrounds/4.jpg",
+                    "pfile": "files/music/4.mp3",
+                    "duration": "236"
+                },
+                {
+                    "title": "Don't Let Me Down",
+                    "author": "The Chainsmokers",
+                    "cover": "files/covers/5.jpg",
+                    "background": "files/backgrounds/5.jpg",
+                    "pfile": "files/music/5.mp3",
+                    "duration": "219"
+                },
+                {
+                    "title": "Mind",
+                    "author": "Skrillex & Diplo",
+                    "cover": "files/covers/6.jpg",
+                    "background": "files/backgrounds/6.jpg",
+                    "pfile": "files/music/6.mp3",
+                    "duration": "211"
+                },
+                {
+                    "title": "We Don't Talk Anymore",
+                    "author": "Charlie Puth",
+                    "cover": "files/covers/7.jpg",
+                    "background": "files/backgrounds/7.jpg",
+                    "pfile": "files/music/7.mp3",
+                    "duration": "217"
+                },
+                {
+                    "title": "Chained To The Rhythm",
+                    "author": "Katy Perry",
+                    "cover": "files/covers/8.jpg",
+                    "background": "files/backgrounds/8.jpg",
+                    "pfile": "files/music/8.mp3",
+                    "duration": "237"
+                },
+                {
+                    "title": "Kamikaze",
+                    "author": "MØ",
+                    "cover": "files/covers/9.jpg",
+                    "background": "files/backgrounds/9.jpg",
+                    "pfile": "files/music/9.mp3",
+                    "duration": "205"
+                },
+                {
+                    "title": "I Got You",
+                    "author": "Bebe Rexha",
+                    "cover": "files/covers/10.jpg",
+                    "background": "files/backgrounds/10.jpg",
+                    "pfile": "files/music/10.mp3",
+                    "duration": "191"
+                }
+            ]
+        });
+    });
+
+</script>
+</body>
+</html>
