@@ -9,6 +9,12 @@
 }
 body{
     background-image: url(../bg.png);
+background: url(#COVER#);
+		background-color: rgba(0,0,0,.6);
+        	background-blend-mode: darken;
+		color: #fff;
+		background-attachment: fixed;
+		background-size: cover;
 }
 
 .mplayer {
