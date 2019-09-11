@@ -17,11 +17,6 @@ body{
 }
 
 .title {
-        border-left:1px #fff solid; 
-        border-right:1px #fff solid; 
-        border-top:1px #fff solid;
-        border-bottom:1px #fff solid;
-        border-radius: 15px; 
         padding: 5px 0 5px 15px;
         text-align: center;
         color: #fff;
@@ -39,6 +34,7 @@ body{
         padding: 0px 2px 0px 2px;
 	    position: fixed; 
         color: #fff;
+        font-size: 10px;
 	    font: 14px;
 	    top: 95%;
 	    left: 35%;
