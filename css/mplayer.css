@@ -12,7 +12,7 @@ body{
 }
 
 .mplayer {
-    margin-top: 0.5px;
+    padding-top: 3px;
     position: relative;
     overflow: hidden;
     width: 290px;
