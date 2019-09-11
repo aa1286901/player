@@ -8,7 +8,7 @@
     url('../fonts/roboto-regular-webfont.ttf') format('truetype');
 }
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2018/05/15/19/45/background-3404111_1280.jpg);
+    background: url(https://cdn.pixabay.com/photo/2018/05/15/19/45/background-3404111_1280.jpg);
 		background-color: #000;
 		background-blend-mode: darken;
 		background-repeat:no-repeat;
@@ -34,7 +34,6 @@ body{
         padding: 0px 2px 0px 2px;
 	    position: fixed; 
         color: #fff;
-        font-size: 10px;
 	    font: 14px;
 	    top: 95%;
 	    left: 35%;
