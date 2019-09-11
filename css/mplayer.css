@@ -16,15 +16,6 @@ body{
 		background-attachment: fixed;
 }
 
-.title {
-        padding: 5px 0 5px 15px;
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-        text-shadow: 4px 4px 4px #444;
-	    padding-top: 8px;
-	    padding-bottom: 8px;
-	}
 	.footer { 
         border-left:1px #fff solid; 
         border-right:1px #fff solid; 
@@ -41,6 +32,7 @@ body{
 	}
 
 .mplayer {
+    top: 5%;
     position: relative;
     overflow: hidden;
     width: 290px;
