@@ -8,7 +8,12 @@
     url('../fonts/roboto-regular-webfont.ttf') format('truetype');
 }
 body{
-    background-image: url(../bg.png);
+    background: url(https://png.pngtree.com/back_origin_pic/04/13/51/f76daf6ed181d9e0e0f82c28644b8112.jpg);
+		background-color: #000;
+		background-blend-mode: darken;
+		background-repeat:no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
 }
 
 .title {
@@ -21,7 +26,7 @@ body{
         text-align: center;
         color: #fff;
 	    font: 14px fantasy,Arial Black;
-        font-size: 28px;
+        font-size: 20px;
         text-shadow: 4px 4px 4px #444;
 	    padding-top: 8px;
 	    padding-bottom: 8px;
