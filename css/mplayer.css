@@ -17,15 +17,14 @@ body{
 }
 
 .title {
-        border-left:0px #fff solid; 
-        border-right:0px #fff solid; 
-        border-top:0px #fff solid;
-        border-bottom:0px #fff solid;
+        border-left:1px #fff solid; 
+        border-right:1px #fff solid; 
+        border-top:1px #fff solid;
+        border-bottom:1px #fff solid;
         border-radius: 15px; 
         padding: 5px 0 5px 15px;
         text-align: center;
         color: #fff;
-	    font: 14px fantasy,Arial Black;
         font-size: 20px;
         text-shadow: 4px 4px 4px #444;
 	    padding-top: 8px;
