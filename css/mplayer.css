@@ -8,8 +8,7 @@
     url('../fonts/roboto-regular-webfont.ttf') format('truetype');
 }
 body{
-    background-image: url(../bg.png);
-background: url(#COVER#);
+    background-image: url(https://png.pngtree.com/back_origin_pic/04/13/51/f76daf6ed181d9e0e0f82c28644b8112.jpg);
 		background-color: rgba(0,0,0,.6);
         	background-blend-mode: darken;
 		color: #fff;
