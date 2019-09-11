@@ -33,7 +33,7 @@ body{
 
 .mplayer {
     top: 5%;
-    position: relative;
+    position: fixed;
     overflow: hidden;
     width: 290px;
     font-family: Arial, sans-serif;
