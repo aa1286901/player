@@ -8,8 +8,8 @@
     url('../fonts/roboto-regular-webfont.ttf') format('truetype');
 }
 body{
-    background: url(https://cdn.pixabay.com/photo/2018/05/15/19/45/background-3404111_1280.jpg);
-		background-color: #000;
+		background: #000 url(https://cdn.pixabay.com/photo/2018/05/15/19/45/background-3404111_1280.jpg);
+		background-color: #fff;
 		background-blend-mode: darken;
 		background-repeat:no-repeat;
 		background-size: cover;
