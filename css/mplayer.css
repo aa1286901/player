@@ -17,7 +17,7 @@ body{
 }
 
 .mplayer {
-    margin: 0 auto;
+    margin: 5px auto;
     display: inline-block;
     position: relative;
     overflow: hidden;
