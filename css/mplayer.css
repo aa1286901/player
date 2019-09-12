@@ -27,7 +27,10 @@ body{
         color: #fff;
 	    font: 14px;
 	    top: 95%;
-	    left: 35%;
+	    width: 80px;
+        position: absolute; 
+        left: 50%;
+        margin-left: -40px;
 	    
 	}
 
