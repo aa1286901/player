@@ -8,7 +8,7 @@
     url('../fonts/roboto-regular-webfont.ttf') format('truetype');
 }
 body{
-		background: #000 url(/files/backgrounds/bg.jpg);
+		background: #000 url(https://raw.githubusercontent.com/aa1286901/player/master/files/backgrounds/bg.jpg);
 		background-color: rgba(0,0,0,.6);
         	background-blend-mode: darken;
 		color: #fff;
