@@ -10,10 +10,6 @@
 body{
 		background: #000 url(files/backgrounds/bg.jpg);
 		background-color: #000;
-		background-blend-mode: darken;
-		background-repeat:no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
 }
 
 	.footer { 
